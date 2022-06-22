@@ -105,6 +105,7 @@ p {
     color: var(--color-white);
     padding: 16px;
     transition: all var(--animation-duration) ease-in-out;
+    z-index: 1;
 }
 
 #navbar.navbar--dark {
@@ -444,7 +445,7 @@ p {
 
 /* Contact */
 #contact {
-    background-color: var(--color-pink);
+    background-color: rgb(158, 74, 199);
 }
 
 .contact__title,
