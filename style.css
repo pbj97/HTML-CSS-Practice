@@ -100,10 +100,9 @@ p {
   height: 70px;
   display: flex;
   justify-content: space-between;
-  background-color: transparent;
   align-items: center;
-  color: var(--color-white);
   padding: 16px;
+  background-color: transparent;
   transition: all var(--animation-duration) ease-in-out;
   z-index: 1;
 }
@@ -120,6 +119,7 @@ p {
 .navbar__logo {
   font-size: var(--font-medium);
   font-weight: var(--weight-semi-bold);
+  color: white;
 }
 
 .navbar__menu__item {
@@ -507,9 +507,15 @@ p {
   .navbar__toggle-btn {
     display: block;
   }
+
   #navbar {
     flex-direction: column;
     align-items: flex-start;
+    background-color: rgb(158, 74, 199);
+  }
+
+  #navbar.nabar__dark {
+    padding: 18px;
   }
 
   .navbar__menu {
@@ -517,6 +523,10 @@ p {
     text-align: center;
     width: 100%;
     display: none;
+  }
+
+  .navbar__menu.open {
+    display: block;
   }
 
   .about__majors {
