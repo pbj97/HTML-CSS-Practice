@@ -3,4 +3,4 @@
 
 html,css,javascript 연습용 사이트
 
-주소 : https://pbj97.github.io/Portfolio-website-clone 
+주소 : https://pbj97.github.io/PortfolioWebsiteClone/ 
